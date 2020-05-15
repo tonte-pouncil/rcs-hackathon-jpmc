@@ -1,0 +1,17 @@
+<p>Google Map:</p>
+
+<google-map height="500px" width="100%" [zoom]="zoom" [center]="center">
+
+  <map-marker #markerElem *ngFor="let marker of markers"
+              [position]="marker.position" [label]="marker.label"
+              [title]="marker.title" [options]="marker.options" >
+
+  </map-marker>
+
+</google-map>
+
+<!-- Use custom zoom buttons -->
+<button (click)="zoomIn()">Zoom in</button>
+<button (click)="zoomOut()">Zoom out</button>
+<button (click)="addMarker()">Add marker</button>
+

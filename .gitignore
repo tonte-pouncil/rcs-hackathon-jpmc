@@ -1,0 +1,8 @@
+acs-hackathon-web/node_modules
+acs-hackathon-web/.idea
+acs-hackathon-web/*.iml
+acs-hackathon-ws/node_modules
+acs-hackathon-ws/.idea
+acs-hackathon-ws/.mvn
+acs-hackathon-ws/target
+acs-hackathon-ws/*.iml
